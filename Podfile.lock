@@ -1,0 +1,44 @@
+PODS:
+  - BibleManager (0.1.0)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - Google-Mobile-Ads-SDK (7.17.0)
+  - PH4BibleManager (0.1.0):
+    - SQLite.swift
+  - SQLite.swift (0.11.2):
+    - SQLite.swift/standard (= 0.11.2)
+  - SQLite.swift/standard (0.11.2)
+
+DEPENDENCIES:
+  - BibleManager (from `https://github.com/ThryvInc/bible-manager-ios.git`)
+  - Crashlytics
+  - Fabric
+  - Google-Mobile-Ads-SDK
+  - PH4BibleManager (from `https://github.com/schrockblock/ph4bible-pod.git`)
+
+EXTERNAL SOURCES:
+  BibleManager:
+    :git: https://github.com/ThryvInc/bible-manager-ios.git
+  PH4BibleManager:
+    :git: https://github.com/schrockblock/ph4bible-pod.git
+
+CHECKOUT OPTIONS:
+  BibleManager:
+    :commit: 386a5d4fc9f625068ae5b01c06c6bef296d53314
+    :git: https://github.com/ThryvInc/bible-manager-ios.git
+  PH4BibleManager:
+    :commit: 842121ae4c6ba2cb7cd08155ad135df6f35a71d3
+    :git: https://github.com/schrockblock/ph4bible-pod.git
+
+SPEC CHECKSUMS:
+  BibleManager: 086c00356d9646f54639412aafddc1faff7af6a9
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Google-Mobile-Ads-SDK: a8bf4211624999b73e4184be516f94770b139525
+  PH4BibleManager: 78249fe8840c64aabd13f0336b6fe0a75aa42af0
+  SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
+
+PODFILE CHECKSUM: b6abe547c93a6e06c654ba299fcc1086c171f1e3
+
+COCOAPODS: 1.1.1

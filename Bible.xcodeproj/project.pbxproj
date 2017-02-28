@@ -1,0 +1,1856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CD6393C469CCDE059AB519 /* Pods_NKJV_Bible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A417CD99BC0DCE1BCE28D237 /* Pods_NKJV_Bible.framework */; };
+		43CA92F2ACA13350F7A6433F /* Pods_Bible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E587A44E8638733939A235B /* Pods_Bible.framework */; };
+		4903F9651E11C2260022EE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9641E11C2260022EE0C /* AppDelegate.swift */; };
+		4903F9671E11C2260022EE0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9661E11C2260022EE0C /* ViewController.swift */; };
+		4903F96A1E11C2260022EE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F9681E11C2260022EE0C /* Main.storyboard */; };
+		4903F96C1E11C2260022EE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4903F96B1E11C2260022EE0C /* Assets.xcassets */; };
+		4903F96F1E11C2260022EE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */; };
+		4903F97A1E11C2260022EE0C /* BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9791E11C2260022EE0C /* BibleTests.swift */; };
+		49515E6B1E5CB7B2008E395A /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E671E5CB7B2008E395A /* Lora-Bold.ttf */; };
+		49515E6C1E5CB7B2008E395A /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */; };
+		49515E6D1E5CB7B2008E395A /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E691E5CB7B2008E395A /* Lora-Italic.ttf */; };
+		49515E6E1E5CB7B2008E395A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */; };
+		49515E791E5CB7C3008E395A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */; };
+		49515E7A1E5CB7C3008E395A /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */; };
+		49515E7B1E5CB7C3008E395A /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */; };
+		49515E7C1E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */; };
+		49515E7D1E5CB7C3008E395A /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */; };
+		49515E7E1E5CB7C3008E395A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */; };
+		49515E7F1E5CB7C3008E395A /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */; };
+		49515E801E5CB7C3008E395A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */; };
+		49515E811E5CB7C3008E395A /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */; };
+		49515E821E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */; };
+		49515E871E5CC16A008E395A /* GenBkBasB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E831E5CC16A008E395A /* GenBkBasB.ttf */; };
+		49515E881E5CC16A008E395A /* GenBkBasBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E841E5CC16A008E395A /* GenBkBasBI.ttf */; };
+		49515E891E5CC16A008E395A /* GenBkBasI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E851E5CC16A008E395A /* GenBkBasI.ttf */; };
+		49515E8A1E5CC16A008E395A /* GenBkBasR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E861E5CC16A008E395A /* GenBkBasR.ttf */; };
+		49515E8D1E5CCDF5008E395A /* AdNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */; };
+		49515E8E1E5CCDF5008E395A /* AdNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */; };
+		49515E981E5CE0AE008E395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515E971E5CE0AE008E395A /* AppDelegate.swift */; };
+		49515E9F1E5CE0AE008E395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49515E9E1E5CE0AE008E395A /* Assets.xcassets */; };
+		49515EAD1E5CE0AE008E395A /* NKJV_BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515EAC1E5CE0AE008E395A /* NKJV_BibleTests.swift */; };
+		49515EB51E5CE176008E395A /* AdNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */; };
+		49515EB61E5CE176008E395A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9661E11C2260022EE0C /* ViewController.swift */; };
+		49515EB71E5CE176008E395A /* VerseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F21E57C9710027BFAE /* VerseDatasource.swift */; };
+		49515EB81E5CE176008E395A /* ChapterPickerViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */; };
+		49515EB91E5CE17C008E395A /* AdNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */; };
+		49515EBA1E5CE185008E395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F9681E11C2260022EE0C /* Main.storyboard */; };
+		49515EBB1E5CE185008E395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */; };
+		49515EC11E5CE4CB008E395A /* bible.db in Resources */ = {isa = PBXBuildFile; fileRef = 49515EC01E5CE4CB008E395A /* bible.db */; };
+		49515EC21E5CE510008E395A /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E671E5CB7B2008E395A /* Lora-Bold.ttf */; };
+		49515EC31E5CE510008E395A /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */; };
+		49515EC41E5CE510008E395A /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E691E5CB7B2008E395A /* Lora-Italic.ttf */; };
+		49515EC51E5CE510008E395A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */; };
+		49515EC61E5CE510008E395A /* GenBkBasB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E831E5CC16A008E395A /* GenBkBasB.ttf */; };
+		49515EC71E5CE510008E395A /* GenBkBasBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E841E5CC16A008E395A /* GenBkBasBI.ttf */; };
+		49515EC81E5CE510008E395A /* GenBkBasI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E851E5CC16A008E395A /* GenBkBasI.ttf */; };
+		49515EC91E5CE510008E395A /* GenBkBasR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E861E5CC16A008E395A /* GenBkBasR.ttf */; };
+		49515ECA1E5CE510008E395A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */; };
+		49515ECB1E5CE510008E395A /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */; };
+		49515ECC1E5CE510008E395A /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */; };
+		49515ECD1E5CE510008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */; };
+		49515ECE1E5CE510008E395A /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */; };
+		49515ECF1E5CE510008E395A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */; };
+		49515ED01E5CE510008E395A /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */; };
+		49515ED11E5CE510008E395A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */; };
+		49515ED21E5CE510008E395A /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */; };
+		49515ED31E5CE510008E395A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */; };
+		49515EDB1E5CE56F008E395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515EDA1E5CE56F008E395A /* AppDelegate.swift */; };
+		49515EE21E5CE56F008E395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49515EE11E5CE56F008E395A /* Assets.xcassets */; };
+		49515EF01E5CE56F008E395A /* NIV_BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515EEF1E5CE56F008E395A /* NIV_BibleTests.swift */; };
+		49515EFF1E5CE57D008E395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515EFE1E5CE57D008E395A /* AppDelegate.swift */; };
+		49515F061E5CE57D008E395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49515F051E5CE57D008E395A /* Assets.xcassets */; };
+		49515F141E5CE57E008E395A /* KJV_BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515F131E5CE57E008E395A /* KJV_BibleTests.swift */; };
+		49515F1C1E5CE5E7008E395A /* AdNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */; };
+		49515F1D1E5CE5E7008E395A /* AdNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */; };
+		49515F1E1E5CE5E7008E395A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9661E11C2260022EE0C /* ViewController.swift */; };
+		49515F1F1E5CE5E7008E395A /* VerseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F21E57C9710027BFAE /* VerseDatasource.swift */; };
+		49515F201E5CE5E7008E395A /* ChapterPickerViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */; };
+		49515F211E5CE5E7008E395A /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E671E5CB7B2008E395A /* Lora-Bold.ttf */; };
+		49515F221E5CE5E7008E395A /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */; };
+		49515F231E5CE5E7008E395A /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E691E5CB7B2008E395A /* Lora-Italic.ttf */; };
+		49515F241E5CE5E7008E395A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */; };
+		49515F251E5CE5E7008E395A /* GenBkBasB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E831E5CC16A008E395A /* GenBkBasB.ttf */; };
+		49515F261E5CE5E7008E395A /* GenBkBasBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E841E5CC16A008E395A /* GenBkBasBI.ttf */; };
+		49515F271E5CE5E7008E395A /* GenBkBasI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E851E5CC16A008E395A /* GenBkBasI.ttf */; };
+		49515F281E5CE5E7008E395A /* GenBkBasR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E861E5CC16A008E395A /* GenBkBasR.ttf */; };
+		49515F291E5CE5E7008E395A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */; };
+		49515F2A1E5CE5E7008E395A /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */; };
+		49515F2B1E5CE5E7008E395A /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */; };
+		49515F2C1E5CE5E7008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */; };
+		49515F2D1E5CE5E7008E395A /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */; };
+		49515F2E1E5CE5E7008E395A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */; };
+		49515F2F1E5CE5E7008E395A /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */; };
+		49515F301E5CE5E7008E395A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */; };
+		49515F311E5CE5E7008E395A /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */; };
+		49515F321E5CE5E7008E395A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */; };
+		49515F331E5CE5E9008E395A /* AdNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */; };
+		49515F341E5CE5E9008E395A /* AdNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */; };
+		49515F351E5CE5E9008E395A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903F9661E11C2260022EE0C /* ViewController.swift */; };
+		49515F361E5CE5E9008E395A /* VerseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F21E57C9710027BFAE /* VerseDatasource.swift */; };
+		49515F371E5CE5E9008E395A /* ChapterPickerViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */; };
+		49515F381E5CE5E9008E395A /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E671E5CB7B2008E395A /* Lora-Bold.ttf */; };
+		49515F391E5CE5E9008E395A /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */; };
+		49515F3A1E5CE5E9008E395A /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E691E5CB7B2008E395A /* Lora-Italic.ttf */; };
+		49515F3B1E5CE5E9008E395A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */; };
+		49515F3C1E5CE5E9008E395A /* GenBkBasB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E831E5CC16A008E395A /* GenBkBasB.ttf */; };
+		49515F3D1E5CE5E9008E395A /* GenBkBasBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E841E5CC16A008E395A /* GenBkBasBI.ttf */; };
+		49515F3E1E5CE5E9008E395A /* GenBkBasI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E851E5CC16A008E395A /* GenBkBasI.ttf */; };
+		49515F3F1E5CE5E9008E395A /* GenBkBasR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E861E5CC16A008E395A /* GenBkBasR.ttf */; };
+		49515F401E5CE5E9008E395A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */; };
+		49515F411E5CE5E9008E395A /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */; };
+		49515F421E5CE5E9008E395A /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */; };
+		49515F431E5CE5E9008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */; };
+		49515F441E5CE5E9008E395A /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */; };
+		49515F451E5CE5E9008E395A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */; };
+		49515F461E5CE5E9008E395A /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */; };
+		49515F471E5CE5E9008E395A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */; };
+		49515F481E5CE5E9008E395A /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */; };
+		49515F491E5CE5E9008E395A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */; };
+		49515F4A1E5CE5F7008E395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F9681E11C2260022EE0C /* Main.storyboard */; };
+		49515F4B1E5CE5F7008E395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */; };
+		49515F4C1E5CE5F8008E395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F9681E11C2260022EE0C /* Main.storyboard */; };
+		49515F4D1E5CE5F8008E395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */; };
+		49515F4F1E5CE675008E395A /* bible.db in Resources */ = {isa = PBXBuildFile; fileRef = 49515F4E1E5CE675008E395A /* bible.db */; };
+		49515F511E5CE67B008E395A /* bible.db in Resources */ = {isa = PBXBuildFile; fileRef = 49515F501E5CE67B008E395A /* bible.db */; };
+		49F899F11E5610460027BFAE /* bible.db in Resources */ = {isa = PBXBuildFile; fileRef = 49F899F01E5610460027BFAE /* bible.db */; };
+		49F899F31E57C9710027BFAE /* VerseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F21E57C9710027BFAE /* VerseDatasource.swift */; };
+		49F899F71E57CBD00027BFAE /* ChapterPickerViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */; };
+		4DE6BF5132FB06CE71DA763C /* Pods_NIV_BibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF9F5772282705941A667A /* Pods_NIV_BibleTests.framework */; };
+		5C438E8B049DB2AE0FEE85FD /* Pods_NIV_Bible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E6B1DD9D9F5DEB58397742 /* Pods_NIV_Bible.framework */; };
+		7821842E2DAABF27815D2C0F /* Pods_BibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F776A94E1D28AB6216E4900 /* Pods_BibleTests.framework */; };
+		78E780CC5F82773BFE041F39 /* Pods_KJV_Bible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A59D68C867B6D02C838BFB /* Pods_KJV_Bible.framework */; };
+		CBC6E572FCB6256B534AFA93 /* Pods_KJV_BibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D1BF58F5EAA0C19AB93A12 /* Pods_KJV_BibleTests.framework */; };
+		CDD0CCBBFBDA83F06C783A89 /* Pods_NKJV_BibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A01E6FB1B8B6842121FA942 /* Pods_NKJV_BibleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4903F9761E11C2260022EE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903F9591E11C2250022EE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4903F9601E11C2250022EE0C;
+			remoteInfo = Bible;
+		};
+		49515EA91E5CE0AE008E395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903F9591E11C2250022EE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49515E941E5CE0AE008E395A;
+			remoteInfo = "NKJV Bible";
+		};
+		49515EEC1E5CE56F008E395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903F9591E11C2250022EE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49515ED71E5CE56F008E395A;
+			remoteInfo = "NIV Bible";
+		};
+		49515F101E5CE57E008E395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903F9591E11C2250022EE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49515EFB1E5CE57D008E395A;
+			remoteInfo = "KJV Bible";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032109DA91B3FF2B5CF5BBD8 /* Pods-BibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BibleTests/Pods-BibleTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EAF9F5772282705941A667A /* Pods_NIV_BibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIV_BibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A01E6FB1B8B6842121FA942 /* Pods_NKJV_BibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKJV_BibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F25D238BFD3230E4EDB0133 /* Pods-NIV BibleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIV BibleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIV BibleTests/Pods-NIV BibleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		212F5E658E9B4CF1CA1213D2 /* Pods-KJV BibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJV BibleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJV BibleTests/Pods-KJV BibleTests.release.xcconfig"; sourceTree = "<group>"; };
+		21E6B1DD9D9F5DEB58397742 /* Pods_NIV_Bible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIV_Bible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F776A94E1D28AB6216E4900 /* Pods_BibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E390ADF6181BBD3203A824 /* Pods-NKJV BibleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJV BibleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKJV BibleTests/Pods-NKJV BibleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39C9CEC8A7543397D4D6857A /* Pods-KJV BibleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJV BibleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KJV BibleTests/Pods-KJV BibleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E587A44E8638733939A235B /* Pods_Bible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45101A8F0CF1C55A99AC764B /* Pods-Bible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bible.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bible/Pods-Bible.debug.xcconfig"; sourceTree = "<group>"; };
+		456068EE063F9495F0930FD0 /* Pods-KJV Bible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJV Bible.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KJV Bible/Pods-KJV Bible.debug.xcconfig"; sourceTree = "<group>"; };
+		4903F9611E11C2260022EE0C /* Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bible.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4903F9641E11C2260022EE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4903F9661E11C2260022EE0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4903F9691E11C2260022EE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4903F96B1E11C2260022EE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4903F96E1E11C2260022EE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4903F9701E11C2260022EE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4903F9751E11C2260022EE0C /* BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4903F9791E11C2260022EE0C /* BibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleTests.swift; sourceTree = "<group>"; };
+		4903F97B1E11C2260022EE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515E671E5CB7B2008E395A /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
+		49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-BoldItalic.ttf"; sourceTree = "<group>"; };
+		49515E691E5CB7B2008E395A /* Lora-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic.ttf"; sourceTree = "<group>"; };
+		49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
+		49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		49515E831E5CC16A008E395A /* GenBkBasB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenBkBasB.ttf; sourceTree = "<group>"; };
+		49515E841E5CC16A008E395A /* GenBkBasBI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenBkBasBI.ttf; sourceTree = "<group>"; };
+		49515E851E5CC16A008E395A /* GenBkBasI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenBkBasI.ttf; sourceTree = "<group>"; };
+		49515E861E5CC16A008E395A /* GenBkBasR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenBkBasR.ttf; sourceTree = "<group>"; };
+		49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdNavigationController.xib; sourceTree = "<group>"; };
+		49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdNavigationController.swift; sourceTree = "<group>"; };
+		49515E951E5CE0AE008E395A /* NKJV Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NKJV Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515E971E5CE0AE008E395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49515E9E1E5CE0AE008E395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49515EA31E5CE0AE008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515EA81E5CE0AE008E395A /* NKJV BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NKJV BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515EAC1E5CE0AE008E395A /* NKJV_BibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKJV_BibleTests.swift; sourceTree = "<group>"; };
+		49515EAE1E5CE0AE008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515EC01E5CE4CB008E395A /* bible.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bible.db; sourceTree = "<group>"; };
+		49515ED81E5CE56F008E395A /* NIV Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIV Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515EDA1E5CE56F008E395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49515EE11E5CE56F008E395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49515EE61E5CE56F008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515EEB1E5CE56F008E395A /* NIV BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIV BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515EEF1E5CE56F008E395A /* NIV_BibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIV_BibleTests.swift; sourceTree = "<group>"; };
+		49515EF11E5CE56F008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515EFC1E5CE57D008E395A /* KJV Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KJV Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515EFE1E5CE57D008E395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49515F051E5CE57D008E395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49515F0A1E5CE57D008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515F0F1E5CE57D008E395A /* KJV BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KJV BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49515F131E5CE57E008E395A /* KJV_BibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJV_BibleTests.swift; sourceTree = "<group>"; };
+		49515F151E5CE57E008E395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49515F4E1E5CE675008E395A /* bible.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bible.db; sourceTree = "<group>"; };
+		49515F501E5CE67B008E395A /* bible.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bible.db; sourceTree = "<group>"; };
+		49F899F01E5610460027BFAE /* bible.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bible.db; sourceTree = "<group>"; };
+		49F899F21E57C9710027BFAE /* VerseDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseDatasource.swift; sourceTree = "<group>"; };
+		49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterPickerViewDatasource.swift; sourceTree = "<group>"; };
+		4CB4307056B4569E2DDD2106 /* Pods-Bible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bible.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bible/Pods-Bible.release.xcconfig"; sourceTree = "<group>"; };
+		507CEE37AFC87BECF8405C79 /* Pods-KJV Bible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJV Bible.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJV Bible/Pods-KJV Bible.release.xcconfig"; sourceTree = "<group>"; };
+		87D1BF58F5EAA0C19AB93A12 /* Pods_KJV_BibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJV_BibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9BA1ABF10D2BE63458868B /* Pods-NIV BibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIV BibleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIV BibleTests/Pods-NIV BibleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A320799B905D1A8B632EA990 /* Pods-NKJV Bible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJV Bible.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKJV Bible/Pods-NKJV Bible.debug.xcconfig"; sourceTree = "<group>"; };
+		A417CD99BC0DCE1BCE28D237 /* Pods_NKJV_Bible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKJV_Bible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B592F01C478097CA262B26C4 /* Pods-NIV Bible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIV Bible.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIV Bible/Pods-NIV Bible.debug.xcconfig"; sourceTree = "<group>"; };
+		C2CA7D0F597E9B6410B79D90 /* Pods-BibleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BibleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BibleTests/Pods-BibleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD295C68A0515456B62843C0 /* Pods-NIV Bible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIV Bible.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIV Bible/Pods-NIV Bible.release.xcconfig"; sourceTree = "<group>"; };
+		E2A59D68C867B6D02C838BFB /* Pods_KJV_Bible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJV_Bible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83BF9837DE4F028EF2920F4 /* Pods-NKJV Bible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJV Bible.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKJV Bible/Pods-NKJV Bible.release.xcconfig"; sourceTree = "<group>"; };
+		FB966BDED656E2D6AC45343D /* Pods-NKJV BibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJV BibleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKJV BibleTests/Pods-NKJV BibleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4903F95E1E11C2250022EE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CA92F2ACA13350F7A6433F /* Pods_Bible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903F9721E11C2260022EE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7821842E2DAABF27815D2C0F /* Pods_BibleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515E921E5CE0AE008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CD6393C469CCDE059AB519 /* Pods_NKJV_Bible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EA51E5CE0AE008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD0CCBBFBDA83F06C783A89 /* Pods_NKJV_BibleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515ED51E5CE56F008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C438E8B049DB2AE0FEE85FD /* Pods_NIV_Bible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EE81E5CE56F008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE6BF5132FB06CE71DA763C /* Pods_NIV_BibleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EF91E5CE57D008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E780CC5F82773BFE041F39 /* Pods_KJV_Bible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515F0C1E5CE57D008E395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC6E572FCB6256B534AFA93 /* Pods_KJV_BibleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4903F9581E11C2250022EE0C = {
+			isa = PBXGroup;
+			children = (
+				4903F9631E11C2260022EE0C /* Bible */,
+				4903F9781E11C2260022EE0C /* BibleTests */,
+				49515E961E5CE0AE008E395A /* NKJV Bible */,
+				49515EAB1E5CE0AE008E395A /* NKJV BibleTests */,
+				49515ED91E5CE56F008E395A /* NIV Bible */,
+				49515EEE1E5CE56F008E395A /* NIV BibleTests */,
+				49515EFD1E5CE57D008E395A /* KJV Bible */,
+				49515F121E5CE57E008E395A /* KJV BibleTests */,
+				4903F9621E11C2260022EE0C /* Products */,
+				598D7ACA7D04C4038C9EB8FD /* Pods */,
+				A8B3FE6366CA2E95E2E5E6FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4903F9621E11C2260022EE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4903F9611E11C2260022EE0C /* Bible.app */,
+				4903F9751E11C2260022EE0C /* BibleTests.xctest */,
+				49515E951E5CE0AE008E395A /* NKJV Bible.app */,
+				49515EA81E5CE0AE008E395A /* NKJV BibleTests.xctest */,
+				49515ED81E5CE56F008E395A /* NIV Bible.app */,
+				49515EEB1E5CE56F008E395A /* NIV BibleTests.xctest */,
+				49515EFC1E5CE57D008E395A /* KJV Bible.app */,
+				49515F0F1E5CE57D008E395A /* KJV BibleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4903F9631E11C2260022EE0C /* Bible */ = {
+			isa = PBXGroup;
+			children = (
+				49515E641E5CB6EA008E395A /* Controllers */,
+				49515E631E5CB6DC008E395A /* Datasources */,
+				49515E661E5CB705008E395A /* Storyboards */,
+				4903F9641E11C2260022EE0C /* AppDelegate.swift */,
+				4903F96B1E11C2260022EE0C /* Assets.xcassets */,
+				49515E651E5CB6F9008E395A /* Supporting Files */,
+			);
+			path = Bible;
+			sourceTree = "<group>";
+		};
+		4903F9781E11C2260022EE0C /* BibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4903F9791E11C2260022EE0C /* BibleTests.swift */,
+				4903F97B1E11C2260022EE0C /* Info.plist */,
+			);
+			path = BibleTests;
+			sourceTree = "<group>";
+		};
+		49515E631E5CB6DC008E395A /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				49F899F21E57C9710027BFAE /* VerseDatasource.swift */,
+				49F899F61E57CBCF0027BFAE /* ChapterPickerViewDatasource.swift */,
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		49515E641E5CB6EA008E395A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49515E8C1E5CCDF5008E395A /* AdNavigationController.swift */,
+				49515E8B1E5CCDF5008E395A /* AdNavigationController.xib */,
+				4903F9661E11C2260022EE0C /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		49515E651E5CB6F9008E395A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4903F9701E11C2260022EE0C /* Info.plist */,
+				49F899F01E5610460027BFAE /* bible.db */,
+				49515E671E5CB7B2008E395A /* Lora-Bold.ttf */,
+				49515E681E5CB7B2008E395A /* Lora-BoldItalic.ttf */,
+				49515E691E5CB7B2008E395A /* Lora-Italic.ttf */,
+				49515E6A1E5CB7B2008E395A /* Lora-Regular.ttf */,
+				49515E831E5CC16A008E395A /* GenBkBasB.ttf */,
+				49515E841E5CC16A008E395A /* GenBkBasBI.ttf */,
+				49515E851E5CC16A008E395A /* GenBkBasI.ttf */,
+				49515E861E5CC16A008E395A /* GenBkBasR.ttf */,
+				49515E6F1E5CB7C3008E395A /* OpenSans-Bold.ttf */,
+				49515E701E5CB7C3008E395A /* OpenSans-BoldItalic.ttf */,
+				49515E711E5CB7C3008E395A /* OpenSans-ExtraBold.ttf */,
+				49515E721E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf */,
+				49515E731E5CB7C3008E395A /* OpenSans-Italic.ttf */,
+				49515E741E5CB7C3008E395A /* OpenSans-Light.ttf */,
+				49515E751E5CB7C3008E395A /* OpenSans-LightItalic.ttf */,
+				49515E761E5CB7C3008E395A /* OpenSans-Regular.ttf */,
+				49515E771E5CB7C3008E395A /* OpenSans-Semibold.ttf */,
+				49515E781E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49515E661E5CB705008E395A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4903F9681E11C2260022EE0C /* Main.storyboard */,
+				4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		49515E961E5CE0AE008E395A /* NKJV Bible */ = {
+			isa = PBXGroup;
+			children = (
+				49515EC01E5CE4CB008E395A /* bible.db */,
+				49515E971E5CE0AE008E395A /* AppDelegate.swift */,
+				49515E9E1E5CE0AE008E395A /* Assets.xcassets */,
+				49515EA31E5CE0AE008E395A /* Info.plist */,
+			);
+			path = "NKJV Bible";
+			sourceTree = "<group>";
+		};
+		49515EAB1E5CE0AE008E395A /* NKJV BibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49515EAC1E5CE0AE008E395A /* NKJV_BibleTests.swift */,
+				49515EAE1E5CE0AE008E395A /* Info.plist */,
+			);
+			path = "NKJV BibleTests";
+			sourceTree = "<group>";
+		};
+		49515ED91E5CE56F008E395A /* NIV Bible */ = {
+			isa = PBXGroup;
+			children = (
+				49515F501E5CE67B008E395A /* bible.db */,
+				49515EDA1E5CE56F008E395A /* AppDelegate.swift */,
+				49515EE11E5CE56F008E395A /* Assets.xcassets */,
+				49515EE61E5CE56F008E395A /* Info.plist */,
+			);
+			path = "NIV Bible";
+			sourceTree = "<group>";
+		};
+		49515EEE1E5CE56F008E395A /* NIV BibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49515EEF1E5CE56F008E395A /* NIV_BibleTests.swift */,
+				49515EF11E5CE56F008E395A /* Info.plist */,
+			);
+			path = "NIV BibleTests";
+			sourceTree = "<group>";
+		};
+		49515EFD1E5CE57D008E395A /* KJV Bible */ = {
+			isa = PBXGroup;
+			children = (
+				49515F4E1E5CE675008E395A /* bible.db */,
+				49515EFE1E5CE57D008E395A /* AppDelegate.swift */,
+				49515F051E5CE57D008E395A /* Assets.xcassets */,
+				49515F0A1E5CE57D008E395A /* Info.plist */,
+			);
+			path = "KJV Bible";
+			sourceTree = "<group>";
+		};
+		49515F121E5CE57E008E395A /* KJV BibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49515F131E5CE57E008E395A /* KJV_BibleTests.swift */,
+				49515F151E5CE57E008E395A /* Info.plist */,
+			);
+			path = "KJV BibleTests";
+			sourceTree = "<group>";
+		};
+		598D7ACA7D04C4038C9EB8FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45101A8F0CF1C55A99AC764B /* Pods-Bible.debug.xcconfig */,
+				4CB4307056B4569E2DDD2106 /* Pods-Bible.release.xcconfig */,
+				C2CA7D0F597E9B6410B79D90 /* Pods-BibleTests.debug.xcconfig */,
+				032109DA91B3FF2B5CF5BBD8 /* Pods-BibleTests.release.xcconfig */,
+				A320799B905D1A8B632EA990 /* Pods-NKJV Bible.debug.xcconfig */,
+				F83BF9837DE4F028EF2920F4 /* Pods-NKJV Bible.release.xcconfig */,
+				38E390ADF6181BBD3203A824 /* Pods-NKJV BibleTests.debug.xcconfig */,
+				FB966BDED656E2D6AC45343D /* Pods-NKJV BibleTests.release.xcconfig */,
+				456068EE063F9495F0930FD0 /* Pods-KJV Bible.debug.xcconfig */,
+				507CEE37AFC87BECF8405C79 /* Pods-KJV Bible.release.xcconfig */,
+				39C9CEC8A7543397D4D6857A /* Pods-KJV BibleTests.debug.xcconfig */,
+				212F5E658E9B4CF1CA1213D2 /* Pods-KJV BibleTests.release.xcconfig */,
+				B592F01C478097CA262B26C4 /* Pods-NIV Bible.debug.xcconfig */,
+				DD295C68A0515456B62843C0 /* Pods-NIV Bible.release.xcconfig */,
+				1F25D238BFD3230E4EDB0133 /* Pods-NIV BibleTests.debug.xcconfig */,
+				9F9BA1ABF10D2BE63458868B /* Pods-NIV BibleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8B3FE6366CA2E95E2E5E6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E587A44E8638733939A235B /* Pods_Bible.framework */,
+				2F776A94E1D28AB6216E4900 /* Pods_BibleTests.framework */,
+				A417CD99BC0DCE1BCE28D237 /* Pods_NKJV_Bible.framework */,
+				1A01E6FB1B8B6842121FA942 /* Pods_NKJV_BibleTests.framework */,
+				E2A59D68C867B6D02C838BFB /* Pods_KJV_Bible.framework */,
+				87D1BF58F5EAA0C19AB93A12 /* Pods_KJV_BibleTests.framework */,
+				21E6B1DD9D9F5DEB58397742 /* Pods_NIV_Bible.framework */,
+				0EAF9F5772282705941A667A /* Pods_NIV_BibleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4903F9601E11C2250022EE0C /* Bible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4903F97E1E11C2260022EE0C /* Build configuration list for PBXNativeTarget "Bible" */;
+			buildPhases = (
+				DF4B10A1601C9737CEFADE19 /* [CP] Check Pods Manifest.lock */,
+				4903F95D1E11C2250022EE0C /* Sources */,
+				4903F95E1E11C2250022EE0C /* Frameworks */,
+				4903F95F1E11C2250022EE0C /* Resources */,
+				EC5E5492E87278BC6785CF90 /* [CP] Embed Pods Frameworks */,
+				E9AD5981DF78E353C3F7C890 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bible;
+			productName = Bible;
+			productReference = 4903F9611E11C2260022EE0C /* Bible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4903F9741E11C2260022EE0C /* BibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4903F9811E11C2260022EE0C /* Build configuration list for PBXNativeTarget "BibleTests" */;
+			buildPhases = (
+				D13C8F60C843F15CF30A99C2 /* [CP] Check Pods Manifest.lock */,
+				4903F9711E11C2260022EE0C /* Sources */,
+				4903F9721E11C2260022EE0C /* Frameworks */,
+				4903F9731E11C2260022EE0C /* Resources */,
+				0B0BB09B3D75C837F6F93CF5 /* [CP] Embed Pods Frameworks */,
+				64E2E1C071813DA8925071DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4903F9771E11C2260022EE0C /* PBXTargetDependency */,
+			);
+			name = BibleTests;
+			productName = BibleTests;
+			productReference = 4903F9751E11C2260022EE0C /* BibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49515E941E5CE0AE008E395A /* NKJV Bible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515EB31E5CE0AF008E395A /* Build configuration list for PBXNativeTarget "NKJV Bible" */;
+			buildPhases = (
+				B6340F24F5D94935C4679736 /* [CP] Check Pods Manifest.lock */,
+				49515E911E5CE0AE008E395A /* Sources */,
+				49515E921E5CE0AE008E395A /* Frameworks */,
+				49515E931E5CE0AE008E395A /* Resources */,
+				2D3C07A1745035597155500C /* [CP] Embed Pods Frameworks */,
+				012CA07CD55538ACA197B9C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NKJV Bible";
+			productName = "NKJV Bible";
+			productReference = 49515E951E5CE0AE008E395A /* NKJV Bible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49515EA71E5CE0AE008E395A /* NKJV BibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515EB41E5CE0AF008E395A /* Build configuration list for PBXNativeTarget "NKJV BibleTests" */;
+			buildPhases = (
+				3F2E1BA72C8019469F2CF980 /* [CP] Check Pods Manifest.lock */,
+				49515EA41E5CE0AE008E395A /* Sources */,
+				49515EA51E5CE0AE008E395A /* Frameworks */,
+				49515EA61E5CE0AE008E395A /* Resources */,
+				930F10FBFECDA00B3F60BFC4 /* [CP] Embed Pods Frameworks */,
+				711215FE8491A23368440310 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49515EAA1E5CE0AE008E395A /* PBXTargetDependency */,
+			);
+			name = "NKJV BibleTests";
+			productName = "NKJV BibleTests";
+			productReference = 49515EA81E5CE0AE008E395A /* NKJV BibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49515ED71E5CE56F008E395A /* NIV Bible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515EF21E5CE56F008E395A /* Build configuration list for PBXNativeTarget "NIV Bible" */;
+			buildPhases = (
+				AA18CE8D670DD62598A65EEE /* [CP] Check Pods Manifest.lock */,
+				49515ED41E5CE56F008E395A /* Sources */,
+				49515ED51E5CE56F008E395A /* Frameworks */,
+				49515ED61E5CE56F008E395A /* Resources */,
+				7B87471DE5474AA13BA4B5EC /* [CP] Embed Pods Frameworks */,
+				8445AFF083506DF6204DC7D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIV Bible";
+			productName = "NIV Bible";
+			productReference = 49515ED81E5CE56F008E395A /* NIV Bible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49515EEA1E5CE56F008E395A /* NIV BibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515EF51E5CE56F008E395A /* Build configuration list for PBXNativeTarget "NIV BibleTests" */;
+			buildPhases = (
+				8891798151436CF462AF5C24 /* [CP] Check Pods Manifest.lock */,
+				49515EE71E5CE56F008E395A /* Sources */,
+				49515EE81E5CE56F008E395A /* Frameworks */,
+				49515EE91E5CE56F008E395A /* Resources */,
+				3DBCFB7274D3A9B64635A637 /* [CP] Embed Pods Frameworks */,
+				485B091871445EADAB676540 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49515EED1E5CE56F008E395A /* PBXTargetDependency */,
+			);
+			name = "NIV BibleTests";
+			productName = "NIV BibleTests";
+			productReference = 49515EEB1E5CE56F008E395A /* NIV BibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49515EFB1E5CE57D008E395A /* KJV Bible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515F161E5CE57E008E395A /* Build configuration list for PBXNativeTarget "KJV Bible" */;
+			buildPhases = (
+				A814B5506734035F8700D2E8 /* [CP] Check Pods Manifest.lock */,
+				49515EF81E5CE57D008E395A /* Sources */,
+				49515EF91E5CE57D008E395A /* Frameworks */,
+				49515EFA1E5CE57D008E395A /* Resources */,
+				2F9DAF44BB2847271CE8B281 /* [CP] Embed Pods Frameworks */,
+				D5C0C9C4A54777D484480C72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KJV Bible";
+			productName = "KJV Bible";
+			productReference = 49515EFC1E5CE57D008E395A /* KJV Bible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49515F0E1E5CE57D008E395A /* KJV BibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49515F191E5CE57E008E395A /* Build configuration list for PBXNativeTarget "KJV BibleTests" */;
+			buildPhases = (
+				F4CA0DAD890715DC42930EAC /* [CP] Check Pods Manifest.lock */,
+				49515F0B1E5CE57D008E395A /* Sources */,
+				49515F0C1E5CE57D008E395A /* Frameworks */,
+				49515F0D1E5CE57D008E395A /* Resources */,
+				6A49C2305100C7A27FA69D61 /* [CP] Embed Pods Frameworks */,
+				C5C35E4029D2567473927AC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49515F111E5CE57E008E395A /* PBXTargetDependency */,
+			);
+			name = "KJV BibleTests";
+			productName = "KJV BibleTests";
+			productReference = 49515F0F1E5CE57D008E395A /* KJV BibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4903F9591E11C2250022EE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Thryv;
+				TargetAttributes = {
+					4903F9601E11C2250022EE0C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+					};
+					4903F9741E11C2260022EE0C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4903F9601E11C2250022EE0C;
+					};
+					49515E941E5CE0AE008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+					};
+					49515EA71E5CE0AE008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49515E941E5CE0AE008E395A;
+					};
+					49515ED71E5CE56F008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+					};
+					49515EEA1E5CE56F008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49515ED71E5CE56F008E395A;
+					};
+					49515EFB1E5CE57D008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+					};
+					49515F0E1E5CE57D008E395A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49515EFB1E5CE57D008E395A;
+					};
+				};
+			};
+			buildConfigurationList = 4903F95C1E11C2250022EE0C /* Build configuration list for PBXProject "Bible" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4903F9581E11C2250022EE0C;
+			productRefGroup = 4903F9621E11C2260022EE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4903F9601E11C2250022EE0C /* Bible */,
+				4903F9741E11C2260022EE0C /* BibleTests */,
+				49515E941E5CE0AE008E395A /* NKJV Bible */,
+				49515EA71E5CE0AE008E395A /* NKJV BibleTests */,
+				49515ED71E5CE56F008E395A /* NIV Bible */,
+				49515EEA1E5CE56F008E395A /* NIV BibleTests */,
+				49515EFB1E5CE57D008E395A /* KJV Bible */,
+				49515F0E1E5CE57D008E395A /* KJV BibleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4903F95F1E11C2250022EE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4903F96F1E11C2260022EE0C /* LaunchScreen.storyboard in Resources */,
+				49515E7B1E5CB7C3008E395A /* OpenSans-ExtraBold.ttf in Resources */,
+				49515E8A1E5CC16A008E395A /* GenBkBasR.ttf in Resources */,
+				49515E7E1E5CB7C3008E395A /* OpenSans-Light.ttf in Resources */,
+				49515E6E1E5CB7B2008E395A /* Lora-Regular.ttf in Resources */,
+				49515E6D1E5CB7B2008E395A /* Lora-Italic.ttf in Resources */,
+				49515E891E5CC16A008E395A /* GenBkBasI.ttf in Resources */,
+				49515E7D1E5CB7C3008E395A /* OpenSans-Italic.ttf in Resources */,
+				49515E801E5CB7C3008E395A /* OpenSans-Regular.ttf in Resources */,
+				49515E871E5CC16A008E395A /* GenBkBasB.ttf in Resources */,
+				49515E6C1E5CB7B2008E395A /* Lora-BoldItalic.ttf in Resources */,
+				49515E7A1E5CB7C3008E395A /* OpenSans-BoldItalic.ttf in Resources */,
+				4903F96C1E11C2260022EE0C /* Assets.xcassets in Resources */,
+				49515E821E5CB7C3008E395A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				49515E7C1E5CB7C3008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49515E8D1E5CCDF5008E395A /* AdNavigationController.xib in Resources */,
+				49515E791E5CB7C3008E395A /* OpenSans-Bold.ttf in Resources */,
+				49F899F11E5610460027BFAE /* bible.db in Resources */,
+				49515E6B1E5CB7B2008E395A /* Lora-Bold.ttf in Resources */,
+				4903F96A1E11C2260022EE0C /* Main.storyboard in Resources */,
+				49515E7F1E5CB7C3008E395A /* OpenSans-LightItalic.ttf in Resources */,
+				49515E881E5CC16A008E395A /* GenBkBasBI.ttf in Resources */,
+				49515E811E5CB7C3008E395A /* OpenSans-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903F9731E11C2260022EE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515E931E5CE0AE008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515EC71E5CE510008E395A /* GenBkBasBI.ttf in Resources */,
+				49515ECD1E5CE510008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49515EC61E5CE510008E395A /* GenBkBasB.ttf in Resources */,
+				49515ECF1E5CE510008E395A /* OpenSans-Light.ttf in Resources */,
+				49515EBA1E5CE185008E395A /* Main.storyboard in Resources */,
+				49515EBB1E5CE185008E395A /* LaunchScreen.storyboard in Resources */,
+				49515EB91E5CE17C008E395A /* AdNavigationController.xib in Resources */,
+				49515EC21E5CE510008E395A /* Lora-Bold.ttf in Resources */,
+				49515EC51E5CE510008E395A /* Lora-Regular.ttf in Resources */,
+				49515EC41E5CE510008E395A /* Lora-Italic.ttf in Resources */,
+				49515ED11E5CE510008E395A /* OpenSans-Regular.ttf in Resources */,
+				49515ECE1E5CE510008E395A /* OpenSans-Italic.ttf in Resources */,
+				49515ED21E5CE510008E395A /* OpenSans-Semibold.ttf in Resources */,
+				49515ED31E5CE510008E395A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				49515ECA1E5CE510008E395A /* OpenSans-Bold.ttf in Resources */,
+				49515ECB1E5CE510008E395A /* OpenSans-BoldItalic.ttf in Resources */,
+				49515EC31E5CE510008E395A /* Lora-BoldItalic.ttf in Resources */,
+				49515ED01E5CE510008E395A /* OpenSans-LightItalic.ttf in Resources */,
+				49515ECC1E5CE510008E395A /* OpenSans-ExtraBold.ttf in Resources */,
+				49515EC91E5CE510008E395A /* GenBkBasR.ttf in Resources */,
+				49515EC11E5CE4CB008E395A /* bible.db in Resources */,
+				49515E9F1E5CE0AE008E395A /* Assets.xcassets in Resources */,
+				49515EC81E5CE510008E395A /* GenBkBasI.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EA61E5CE0AE008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515ED61E5CE56F008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515F1D1E5CE5E7008E395A /* AdNavigationController.xib in Resources */,
+				49515F271E5CE5E7008E395A /* GenBkBasI.ttf in Resources */,
+				49515F241E5CE5E7008E395A /* Lora-Regular.ttf in Resources */,
+				49515F251E5CE5E7008E395A /* GenBkBasB.ttf in Resources */,
+				49515F231E5CE5E7008E395A /* Lora-Italic.ttf in Resources */,
+				49515F221E5CE5E7008E395A /* Lora-BoldItalic.ttf in Resources */,
+				49515F2E1E5CE5E7008E395A /* OpenSans-Light.ttf in Resources */,
+				49515F2C1E5CE5E7008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49515F4B1E5CE5F7008E395A /* LaunchScreen.storyboard in Resources */,
+				49515EE21E5CE56F008E395A /* Assets.xcassets in Resources */,
+				49515F321E5CE5E7008E395A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				49515F301E5CE5E7008E395A /* OpenSans-Regular.ttf in Resources */,
+				49515F4A1E5CE5F7008E395A /* Main.storyboard in Resources */,
+				49515F281E5CE5E7008E395A /* GenBkBasR.ttf in Resources */,
+				49515F311E5CE5E7008E395A /* OpenSans-Semibold.ttf in Resources */,
+				49515F211E5CE5E7008E395A /* Lora-Bold.ttf in Resources */,
+				49515F2A1E5CE5E7008E395A /* OpenSans-BoldItalic.ttf in Resources */,
+				49515F511E5CE67B008E395A /* bible.db in Resources */,
+				49515F291E5CE5E7008E395A /* OpenSans-Bold.ttf in Resources */,
+				49515F2D1E5CE5E7008E395A /* OpenSans-Italic.ttf in Resources */,
+				49515F2F1E5CE5E7008E395A /* OpenSans-LightItalic.ttf in Resources */,
+				49515F261E5CE5E7008E395A /* GenBkBasBI.ttf in Resources */,
+				49515F2B1E5CE5E7008E395A /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EE91E5CE56F008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EFA1E5CE57D008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515F341E5CE5E9008E395A /* AdNavigationController.xib in Resources */,
+				49515F3E1E5CE5E9008E395A /* GenBkBasI.ttf in Resources */,
+				49515F3B1E5CE5E9008E395A /* Lora-Regular.ttf in Resources */,
+				49515F3C1E5CE5E9008E395A /* GenBkBasB.ttf in Resources */,
+				49515F3A1E5CE5E9008E395A /* Lora-Italic.ttf in Resources */,
+				49515F391E5CE5E9008E395A /* Lora-BoldItalic.ttf in Resources */,
+				49515F451E5CE5E9008E395A /* OpenSans-Light.ttf in Resources */,
+				49515F431E5CE5E9008E395A /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				49515F4D1E5CE5F8008E395A /* LaunchScreen.storyboard in Resources */,
+				49515F061E5CE57D008E395A /* Assets.xcassets in Resources */,
+				49515F491E5CE5E9008E395A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				49515F471E5CE5E9008E395A /* OpenSans-Regular.ttf in Resources */,
+				49515F4C1E5CE5F8008E395A /* Main.storyboard in Resources */,
+				49515F3F1E5CE5E9008E395A /* GenBkBasR.ttf in Resources */,
+				49515F481E5CE5E9008E395A /* OpenSans-Semibold.ttf in Resources */,
+				49515F381E5CE5E9008E395A /* Lora-Bold.ttf in Resources */,
+				49515F411E5CE5E9008E395A /* OpenSans-BoldItalic.ttf in Resources */,
+				49515F4F1E5CE675008E395A /* bible.db in Resources */,
+				49515F401E5CE5E9008E395A /* OpenSans-Bold.ttf in Resources */,
+				49515F441E5CE5E9008E395A /* OpenSans-Italic.ttf in Resources */,
+				49515F461E5CE5E9008E395A /* OpenSans-LightItalic.ttf in Resources */,
+				49515F3D1E5CE5E9008E395A /* GenBkBasBI.ttf in Resources */,
+				49515F421E5CE5E9008E395A /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515F0D1E5CE57D008E395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		012CA07CD55538ACA197B9C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJV Bible/Pods-NKJV Bible-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B0BB09B3D75C837F6F93CF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BibleTests/Pods-BibleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D3C07A1745035597155500C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJV Bible/Pods-NKJV Bible-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9DAF44BB2847271CE8B281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJV Bible/Pods-KJV Bible-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBCFB7274D3A9B64635A637 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIV BibleTests/Pods-NIV BibleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2E1BA72C8019469F2CF980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		485B091871445EADAB676540 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIV BibleTests/Pods-NIV BibleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E2E1C071813DA8925071DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BibleTests/Pods-BibleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A49C2305100C7A27FA69D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJV BibleTests/Pods-KJV BibleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		711215FE8491A23368440310 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJV BibleTests/Pods-NKJV BibleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B87471DE5474AA13BA4B5EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIV Bible/Pods-NIV Bible-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8445AFF083506DF6204DC7D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIV Bible/Pods-NIV Bible-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8891798151436CF462AF5C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		930F10FBFECDA00B3F60BFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJV BibleTests/Pods-NKJV BibleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A814B5506734035F8700D2E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA18CE8D670DD62598A65EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6340F24F5D94935C4679736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C35E4029D2567473927AC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJV BibleTests/Pods-KJV BibleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13C8F60C843F15CF30A99C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C0C9C4A54777D484480C72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJV Bible/Pods-KJV Bible-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4B10A1601C9737CEFADE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9AD5981DF78E353C3F7C890 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bible/Pods-Bible-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5E5492E87278BC6785CF90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bible/Pods-Bible-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CA0DAD890715DC42930EAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4903F95D1E11C2250022EE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4903F9671E11C2260022EE0C /* ViewController.swift in Sources */,
+				49F899F71E57CBD00027BFAE /* ChapterPickerViewDatasource.swift in Sources */,
+				49F899F31E57C9710027BFAE /* VerseDatasource.swift in Sources */,
+				49515E8E1E5CCDF5008E395A /* AdNavigationController.swift in Sources */,
+				4903F9651E11C2260022EE0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903F9711E11C2260022EE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4903F97A1E11C2260022EE0C /* BibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515E911E5CE0AE008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515EB71E5CE176008E395A /* VerseDatasource.swift in Sources */,
+				49515EB81E5CE176008E395A /* ChapterPickerViewDatasource.swift in Sources */,
+				49515EB61E5CE176008E395A /* ViewController.swift in Sources */,
+				49515EB51E5CE176008E395A /* AdNavigationController.swift in Sources */,
+				49515E981E5CE0AE008E395A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EA41E5CE0AE008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515EAD1E5CE0AE008E395A /* NKJV_BibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515ED41E5CE56F008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515F1C1E5CE5E7008E395A /* AdNavigationController.swift in Sources */,
+				49515F1E1E5CE5E7008E395A /* ViewController.swift in Sources */,
+				49515EDB1E5CE56F008E395A /* AppDelegate.swift in Sources */,
+				49515F1F1E5CE5E7008E395A /* VerseDatasource.swift in Sources */,
+				49515F201E5CE5E7008E395A /* ChapterPickerViewDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EE71E5CE56F008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515EF01E5CE56F008E395A /* NIV_BibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515EF81E5CE57D008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515F331E5CE5E9008E395A /* AdNavigationController.swift in Sources */,
+				49515F351E5CE5E9008E395A /* ViewController.swift in Sources */,
+				49515EFF1E5CE57D008E395A /* AppDelegate.swift in Sources */,
+				49515F361E5CE5E9008E395A /* VerseDatasource.swift in Sources */,
+				49515F371E5CE5E9008E395A /* ChapterPickerViewDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49515F0B1E5CE57D008E395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49515F141E5CE57E008E395A /* KJV_BibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4903F9771E11C2260022EE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4903F9601E11C2250022EE0C /* Bible */;
+			targetProxy = 4903F9761E11C2260022EE0C /* PBXContainerItemProxy */;
+		};
+		49515EAA1E5CE0AE008E395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49515E941E5CE0AE008E395A /* NKJV Bible */;
+			targetProxy = 49515EA91E5CE0AE008E395A /* PBXContainerItemProxy */;
+		};
+		49515EED1E5CE56F008E395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49515ED71E5CE56F008E395A /* NIV Bible */;
+			targetProxy = 49515EEC1E5CE56F008E395A /* PBXContainerItemProxy */;
+		};
+		49515F111E5CE57E008E395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49515EFB1E5CE57D008E395A /* KJV Bible */;
+			targetProxy = 49515F101E5CE57E008E395A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4903F9681E11C2260022EE0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4903F9691E11C2260022EE0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4903F96D1E11C2260022EE0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4903F96E1E11C2260022EE0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4903F97C1E11C2260022EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4903F97D1E11C2260022EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4903F97F1E11C2260022EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45101A8F0CF1C55A99AC764B /* Pods-Bible.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = Bible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.Amplified-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4903F9801E11C2260022EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB4307056B4569E2DDD2106 /* Pods-Bible.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = Bible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.Amplified-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4903F9821E11C2260022EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CA7D0F597E9B6410B79D90 /* Pods-BibleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = BibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thryvinc.BibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible.app/Bible";
+			};
+			name = Debug;
+		};
+		4903F9831E11C2260022EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032109DA91B3FF2B5CF5BBD8 /* Pods-BibleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = BibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thryvinc.BibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible.app/Bible";
+			};
+			name = Release;
+		};
+		49515EAF1E5CE0AE008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A320799B905D1A8B632EA990 /* Pods-NKJV Bible.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NKJV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NKJV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49515EB01E5CE0AE008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83BF9837DE4F028EF2920F4 /* Pods-NKJV Bible.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NKJV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NKJV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49515EB11E5CE0AE008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E390ADF6181BBD3203A824 /* Pods-NKJV BibleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NKJV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NKJV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKJV Bible.app/NKJV Bible";
+			};
+			name = Debug;
+		};
+		49515EB21E5CE0AE008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB966BDED656E2D6AC45343D /* Pods-NKJV BibleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NKJV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NKJV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKJV Bible.app/NKJV Bible";
+			};
+			name = Release;
+		};
+		49515EF31E5CE56F008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B592F01C478097CA262B26C4 /* Pods-NIV Bible.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NIV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NIV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49515EF41E5CE56F008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD295C68A0515456B62843C0 /* Pods-NIV Bible.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NIV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NIV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49515EF61E5CE56F008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F25D238BFD3230E4EDB0133 /* Pods-NIV BibleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NIV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NIV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIV Bible.app/NIV Bible";
+			};
+			name = Debug;
+		};
+		49515EF71E5CE56F008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9BA1ABF10D2BE63458868B /* Pods-NIV BibleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "NIV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.NIV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIV Bible.app/NIV Bible";
+			};
+			name = Release;
+		};
+		49515F171E5CE57E008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456068EE063F9495F0930FD0 /* Pods-KJV Bible.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "KJV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.KJV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49515F181E5CE57E008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507CEE37AFC87BECF8405C79 /* Pods-KJV Bible.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "KJV Bible/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.KJV-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49515F1A1E5CE57E008E395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C9CEC8A7543397D4D6857A /* Pods-KJV BibleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "KJV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.KJV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJV Bible.app/KJV Bible";
+			};
+			name = Debug;
+		};
+		49515F1B1E5CE57E008E395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212F5E658E9B4CF1CA1213D2 /* Pods-KJV BibleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "KJV BibleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.KJV-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJV Bible.app/KJV Bible";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4903F95C1E11C2250022EE0C /* Build configuration list for PBXProject "Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4903F97C1E11C2260022EE0C /* Debug */,
+				4903F97D1E11C2260022EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4903F97E1E11C2260022EE0C /* Build configuration list for PBXNativeTarget "Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4903F97F1E11C2260022EE0C /* Debug */,
+				4903F9801E11C2260022EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4903F9811E11C2260022EE0C /* Build configuration list for PBXNativeTarget "BibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4903F9821E11C2260022EE0C /* Debug */,
+				4903F9831E11C2260022EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515EB31E5CE0AF008E395A /* Build configuration list for PBXNativeTarget "NKJV Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515EAF1E5CE0AE008E395A /* Debug */,
+				49515EB01E5CE0AE008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515EB41E5CE0AF008E395A /* Build configuration list for PBXNativeTarget "NKJV BibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515EB11E5CE0AE008E395A /* Debug */,
+				49515EB21E5CE0AE008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515EF21E5CE56F008E395A /* Build configuration list for PBXNativeTarget "NIV Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515EF31E5CE56F008E395A /* Debug */,
+				49515EF41E5CE56F008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515EF51E5CE56F008E395A /* Build configuration list for PBXNativeTarget "NIV BibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515EF61E5CE56F008E395A /* Debug */,
+				49515EF71E5CE56F008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515F161E5CE57E008E395A /* Build configuration list for PBXNativeTarget "KJV Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515F171E5CE57E008E395A /* Debug */,
+				49515F181E5CE57E008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49515F191E5CE57E008E395A /* Build configuration list for PBXNativeTarget "KJV BibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49515F1A1E5CE57E008E395A /* Debug */,
+				49515F1B1E5CE57E008E395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4903F9591E11C2250022EE0C /* Project object */;
+}
