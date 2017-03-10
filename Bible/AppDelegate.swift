@@ -9,15 +9,17 @@
 import UIKit
 import PH4BibleManager
 import BibleManager
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        Fabric.with([Crashlytics.self])
+
         BibleManager.bibleManager = PH4BibleManager.ph4BibleManager
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: uicolorFromHex(rgbValue: 0x4491b2),
                                                             NSFontAttributeName: UIFont(name: "Open Sans", size: 18)!]

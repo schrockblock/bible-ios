@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(titleTapped))
         self.navigationController?.navigationBar.addGestureRecognizer(tapRecognizer)
         
+        self.datasource.viewController = self
         self.datasource.tableView = tableView
 
         displayChapter()
@@ -46,11 +47,7 @@ class ViewController: UIViewController {
     func displayChapter(){
         self.title = "\(book!.name) \(chapter) ▿"
         
-        BibleManager.bibleManager.verses(of: book!, chapter: chapter, completion: { (bookVerses) in
-            self.verses = bookVerses
-            self.datasource.processVerses(verses: bookVerses)
-            self.datasource.refreshTable()
-        })
+        self.datasource.loadVerses(of: book!, chapter: chapter)
     }
     
     func titleTapped() {

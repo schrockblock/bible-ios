@@ -6,7 +6,6 @@ def import_pods
     pod 'Fabric'
     pod 'Google-Mobile-Ads-SDK'
     pod 'Crashlytics'
-    pod "BibleManager", git: "https://github.com/ThryvInc/bible-manager-ios.git"
     pod "PH4BibleManager", git: "https://github.com/schrockblock/ph4bible-pod.git"
 end
 

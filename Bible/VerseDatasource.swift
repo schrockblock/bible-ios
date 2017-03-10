@@ -21,7 +21,20 @@ class VerseDatasource: NSObject, UITableViewDataSource, UITableViewDelegate {
         }
     }
     var _tableView: UITableView!
+    var book: Book!
+    var chapter: Int64!
     var verseAttributedStrings: Array<NSAttributedString> = Array<NSAttributedString>()
+    weak var viewController: UIViewController?
+    
+    func loadVerses(of book: Book, chapter: Int64){
+        self.book = book
+        self.chapter = chapter
+        
+        BibleManager.bibleManager.verses(of: book, chapter: chapter, completion: { (bookVerses) in
+            self.processVerses(verses: bookVerses)
+            self.refreshTable()
+        })
+    }
     
     func refreshTable() {
         tableView.dataSource = self
@@ -80,6 +93,10 @@ class VerseDatasource: NSObject, UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let verse = verseAttributedStrings[indexPath.row].string
+        let verseShareText = "\(book.abbreviation) \(chapter):\(verse)"
+        let activityViewController = UIActivityViewController(activityItems: [verseShareText as NSString], applicationActivities: nil)
+        viewController?.present(activityViewController, animated: true, completion: nil)
     }
-
 }
